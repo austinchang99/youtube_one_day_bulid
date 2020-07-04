@@ -13,6 +13,10 @@
 		D89D237B24ACF24400ADCA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89D237924ACF24400ADCA23 /* Main.storyboard */; };
 		D89D237D24ACF24900ADCA23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89D237C24ACF24900ADCA23 /* Assets.xcassets */; };
 		D89D238024ACF24900ADCA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89D237E24ACF24900ADCA23 /* LaunchScreen.storyboard */; };
+		D8BBA5AB24B0DDF500F23340 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BBA5AA24B0DDF500F23340 /* Constants.swift */; };
+		D8BBA5AD24B0E77C00F23340 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BBA5AC24B0E77C00F23340 /* Video.swift */; };
+		D8BBA5AF24B0E7F200F23340 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BBA5AE24B0E7F200F23340 /* Model.swift */; };
+		D8BBA5B124B0F8E800F23340 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BBA5B024B0F8E700F23340 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D89D237C24ACF24900ADCA23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89D237F24ACF24900ADCA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D89D238124ACF24900ADCA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BBA5AA24B0DDF500F23340 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D8BBA5AC24B0E77C00F23340 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		D8BBA5AE24B0E7F200F23340 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D8BBA5B024B0F8E700F23340 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				D89D237C24ACF24900ADCA23 /* Assets.xcassets */,
 				D89D237E24ACF24900ADCA23 /* LaunchScreen.storyboard */,
 				D89D238124ACF24900ADCA23 /* Info.plist */,
+				D8BBA5AA24B0DDF500F23340 /* Constants.swift */,
+				D8BBA5AC24B0E77C00F23340 /* Video.swift */,
+				D8BBA5AE24B0E7F200F23340 /* Model.swift */,
+				D8BBA5B024B0F8E700F23340 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				D89D237824ACF24400ADCA23 /* ViewController.swift in Sources */,
 				D89D237424ACF24400ADCA23 /* AppDelegate.swift in Sources */,
 				D89D237624ACF24400ADCA23 /* SceneDelegate.swift in Sources */,
+				D8BBA5AF24B0E7F200F23340 /* Model.swift in Sources */,
+				D8BBA5AB24B0DDF500F23340 /* Constants.swift in Sources */,
+				D8BBA5AD24B0E77C00F23340 /* Video.swift in Sources */,
+				D8BBA5B124B0F8E800F23340 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
