@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D867ACA524BAE47A0055637A /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867ACA424BAE47A0055637A /* CacheManager.swift */; };
+		D867ACA724BAEB8A0055637A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867ACA624BAEB8A0055637A /* DetailViewController.swift */; };
+		D867ACAA24BAF8C60055637A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D867ACA924BAF8C60055637A /* WebKit.framework */; };
 		D89D237424ACF24400ADCA23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D237324ACF24400ADCA23 /* AppDelegate.swift */; };
 		D89D237624ACF24400ADCA23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D237524ACF24400ADCA23 /* SceneDelegate.swift */; };
 		D89D237824ACF24400ADCA23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89D237724ACF24400ADCA23 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		D867ACA424BAE47A0055637A /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		D867ACA624BAEB8A0055637A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D867ACA924BAF8C60055637A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D89D237024ACF24400ADCA23 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89D237324ACF24400ADCA23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89D237524ACF24400ADCA23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,17 +49,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D867ACAA24BAF8C60055637A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D867ACA824BAF8C60055637A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D867ACA924BAF8C60055637A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D89D236724ACF24400ADCA23 = {
 			isa = PBXGroup;
 			children = (
 				D89D237224ACF24400ADCA23 /* youtube-onedaybuild */,
 				D89D237124ACF24400ADCA23 /* Products */,
+				D867ACA824BAF8C60055637A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D89D237724ACF24400ADCA23 /* ViewController.swift */,
+				D867ACA624BAEB8A0055637A /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D867ACA724BAEB8A0055637A /* DetailViewController.swift in Sources */,
 				D89D237824ACF24400ADCA23 /* ViewController.swift in Sources */,
 				D89D237424ACF24400ADCA23 /* AppDelegate.swift in Sources */,
 				D89D237624ACF24400ADCA23 /* SceneDelegate.swift in Sources */,
